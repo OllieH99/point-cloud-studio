@@ -1,0 +1,1 @@
+{"width":770,"height":518,"min":0.4488941431045532,"max":4.819316864013672,"convention":"relative inverse depth, larger = nearer","model":"onnx-community/depth-anything-v2-small model_quantized.onnx","input":[770,518]}

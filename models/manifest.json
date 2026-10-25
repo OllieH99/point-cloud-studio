@@ -1,0 +1,48 @@
+{
+  "version": "da2s-ort1.30.0-1",
+  "runtime": {
+    "webgpu": {
+      "file": "ort-wasm-simd-threaded.asyncify.wasm",
+      "parts": [
+        "ort/ort-wasm-simd-threaded.asyncify.wasm.part0.wasm",
+        "ort/ort-wasm-simd-threaded.asyncify.wasm.part1.wasm"
+      ],
+      "size": 26781914,
+      "sha256": "39f9f0894d478800487ed9f7dbe92618498db320cf55c8e3d89adff8dce658da"
+    },
+    "wasm": {
+      "file": "ort-wasm-simd-threaded.wasm",
+      "parts": [
+        "ort/ort-wasm-simd-threaded.wasm.part0.wasm"
+      ],
+      "size": 14239897,
+      "sha256": "3398c10d07d229bd91b364548e130e0e51a8e5704b88c7c083ebbeb78842dee2"
+    }
+  },
+  "models": {
+    "webgpu": {
+      "file": "depth-anything-v2-small-fp16.onnx",
+      "parts": [
+        "models/depth-anything-v2-small-fp16.onnx.part0.wasm",
+        "models/depth-anything-v2-small-fp16.onnx.part1.wasm",
+        "models/depth-anything-v2-small-fp16.onnx.part2.wasm",
+        "models/depth-anything-v2-small-fp16.onnx.part3.wasm"
+      ],
+      "size": 49642442,
+      "sha256": "2df6223f206b5164e21f664ace61dabeb9bb6a49b8b5a3e00510b4807d0f5b04",
+      "license": "Apache-2.0",
+      "source": "onnx-community/depth-anything-v2-small (model_fp16.onnx)"
+    },
+    "wasm": {
+      "file": "depth-anything-v2-small-int8.onnx",
+      "parts": [
+        "models/depth-anything-v2-small-int8.onnx.part0.wasm",
+        "models/depth-anything-v2-small-int8.onnx.part1.wasm"
+      ],
+      "size": 27258801,
+      "sha256": "fcf51f1b230362b28690bb9d1809bf0431f29cad20534e3f589bd7285547f20d",
+      "license": "Apache-2.0",
+      "source": "onnx-community/depth-anything-v2-small (model_quantized.onnx)"
+    }
+  }
+}
