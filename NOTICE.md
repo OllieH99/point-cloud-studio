@@ -23,20 +23,11 @@ Depth Anything V2 variants have different (non-commercial) terms. SHA-256 hashes
 
 IBM Plex Sans and IBM Plex Mono (SIL Open Font License 1.1), served by Google Fonts.
 
-## Sample media (Wikimedia Commons, CC0 / public domain; resized, metadata stripped)
+## Sample media
 
-- Portrait: "Curly hair and freckles man (Unsplash).jpg", CC0
-- "Marble bust of Herodotos MET DP328506.jpg", The Met, CC0
-- "Water lily on black (Unsplash).jpg", CC0
-- "Bust of Germanicus, front - Getty Museum (2021.66).jpg", CC0
-- "Black Cat (22553764744).jpg", CC0
-- "Frangipani - Plumeria flowers on a black background.jpg", CC0
-- "Siberian portrait (Unsplash).jpg", CC0
-- "Fleabane With Black Background.jpg", CC0
-- "Grouchy Persian cat (Unsplash).jpg", CC0
-- Video: "Annabelle butterfly dance 1894.ogv" (Edison Manufacturing Co.), CC0, transcoded to H.264 MP4 at 768×576
+- Portrait: "Curly hair and freckles man (Unsplash).jpg", Wikimedia Commons, CC0 (resized, metadata stripped)
 
-Full source URLs are listed in `src/ui/actions.ts` (`SAMPLES`). Sample depth maps were precomputed
+The source URL is listed in `src/ui/actions.ts` (`SAMPLES`). The sample depth map was precomputed
 with the same Depth Anything V2 Small weights (`scripts/precompute-sample-depth.mjs`).
 
 The demo beat is original: it is synthesized in the browser by `src/audio/demoTrack.ts`.
