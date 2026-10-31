@@ -4621,7 +4621,7 @@ void evalParticle(uint idx, float dt, out vec3 pos, out vec3 col, out float alph
     // grains leave in a ragged order (some go first) and all are home again at 0
     float e = clamp((uStorm.x - h * 0.3) / 0.7, 0.0, 1.0);
     e = e * (2.0 - e);
-    float R = uStorm.y * 1.8;
+    float R = uStorm.y * 0.6;
     vec3 rd = randDir(idx * 7u + 11u);
     vec3 G = uStormG.xyz;
     vec3 q = pos;
